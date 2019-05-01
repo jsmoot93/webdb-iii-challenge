@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "server": "nodemon index.js",
+    "server:seed": "npx knex seed:run"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "knex": "^0.16.5",
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
